@@ -12,13 +12,12 @@ System.config({
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js",
     "aurelia-skeleton-navigation/*": "lib/*.js",
-	
-	"vectorizer" : "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/vectorizer.js",
-	"geometry" : "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/geometry.js",
-	"joint" : "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.js",
-	"joint.shapes.devs" : "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.shapes.devs.js",
-	"lodash" : "jspm_packages/npm/lodash@3.10.0.js",
-	"backbone" : "jspm_packages/npm/backbone@1.2.1.js",
+    "vectorizer": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/vectorizer.js",
+    "geometry": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/geometry.js",
+    "joint": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.js",
+    "joint.shapes.devs": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.shapes.devs.js",
+    "lodash": "jspm_packages/npm/lodash@3.10.0.js",
+    "backbone": "jspm_packages/npm/backbone@1.2.1.js"
   }
 });
 
@@ -173,6 +172,7 @@ System.config({
     },
     "github:beintrepid/dash-transform-vis@0.0.2": {
       "backbone": "npm:backbone@1.2.1",
+      "linq-es6": "npm:linq-es6@0.2.1",
       "lodash": "npm:lodash@3.10.0"
     },
     "github:beintrepid/dash-transform@0.0.2": {
