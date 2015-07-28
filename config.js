@@ -12,10 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*.js",
     "npm:*": "jspm_packages/npm/*.js",
     "aurelia-skeleton-navigation/*": "lib/*.js",
-    "vectorizer": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/vectorizer.js",
-    "geometry": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/geometry.js",
-    "joint": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.js",
-    "joint.shapes.devs": "jspm_packages/github/beintrepid/dash-transform-vis@0.0.2/joint.shapes.devs.js",
     "lodash": "jspm_packages/npm/lodash@3.10.0.js",
     "backbone": "jspm_packages/npm/backbone@1.2.1.js"
   }
@@ -46,6 +42,7 @@ System.config({
     "aurelia-templating-router": "github:aurelia/templating-router@0.14.0",
     "babel": "npm:babel-core@5.1.13",
     "babel-runtime": "npm:babel-runtime@5.1.13",
+    "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.2",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.12",
@@ -53,9 +50,7 @@ System.config({
     "dash-core": "github:beintrepid/dash-core@0.0.3",
     "dash-github": "github:beintrepid/dash-github@0.0.1",
     "dash-transform": "github:beintrepid/dash-transform@0.0.2",
-    "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.2",
     "font-awesome": "npm:font-awesome@4.3.0",
-    "jointjs": "npm:jointjs@0.8.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
     "github:aurelia/animator-css@0.13.0": {
@@ -172,6 +167,7 @@ System.config({
     },
     "github:beintrepid/dash-transform-vis@0.0.2": {
       "backbone": "npm:backbone@1.2.1",
+      "jointjs": "npm:jointjs@0.9.4",
       "linq-es6": "npm:linq-es6@0.2.1",
       "lodash": "npm:lodash@3.10.0"
     },
@@ -234,10 +230,6 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:backbone@1.1.2": {
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "underscore": "npm:underscore@1.8.3"
-    },
     "npm:backbone@1.2.1": {
       "process": "github:jspm/nodelibs-process@0.1.1",
       "underscore": "npm:underscore@1.8.3"
@@ -274,8 +266,17 @@ System.config({
     "npm:core-util-is@1.0.1": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0"
     },
+    "npm:dagre@0.7.1": {
+      "graphlib": "npm:graphlib@1.0.1",
+      "lodash": "npm:lodash@2.4.2",
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:font-awesome@4.3.0": {
       "css": "github:systemjs/plugin-css@0.1.12"
+    },
+    "npm:graphlib@1.0.1": {
+      "lodash": "npm:lodash@2.4.2",
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:https-browserify@0.0.0": {
       "http": "github:jspm/nodelibs-http@1.7.1"
@@ -283,12 +284,21 @@ System.config({
     "npm:inherits@2.0.1": {
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:jointjs@0.8.0": {
-      "backbone": "npm:backbone@1.1.2",
+    "npm:jointjs@0.9.4": {
+      "backbone": "npm:backbone@1.2.1",
+      "dagre": "npm:dagre@0.7.1",
+      "graphlib": "npm:graphlib@1.0.1",
+      "jquery": "npm:jquery@2.1.3",
       "lodash": "npm:lodash@2.2.1",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
+    "npm:jquery@2.1.3": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
     "npm:lodash@2.2.1": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
+    },
+    "npm:lodash@2.4.2": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:lodash@3.10.0": {
