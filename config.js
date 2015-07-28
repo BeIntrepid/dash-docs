@@ -44,15 +44,14 @@ System.config({
     "aurelia-templating-binding": "github:aurelia/templating-binding@0.13.0",
     "aurelia-templating-resources": "github:aurelia/templating-resources@0.13.0",
     "aurelia-templating-router": "github:aurelia/templating-router@0.14.0",
-    "babel": "npm:babel-core@5.1.13",
-    "babel-runtime": "npm:babel-runtime@5.1.13",
+    "babel": "npm:babel-core@5.8.12",
+    "babel-runtime": "npm:babel-runtime@5.8.12",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.12",
     "dash-component": "github:beintrepid/dash-component@0.0.4",
     "dash-core": "github:beintrepid/dash-core@0.0.3",
-    "dash-github": "github:beintrepid/dash-github@0.0.1",
-    "dash-transform": "github:beintrepid/dash-transform@0.0.2",
+    "dash-transform": "github:beintrepid/dash-transform@0.0.3",
     "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.2",
     "font-awesome": "npm:font-awesome@4.3.0",
     "jointjs": "npm:jointjs@0.8.0",
@@ -167,15 +166,12 @@ System.config({
     "github:beintrepid/dash-component@0.0.4": {
       "dash-core": "github:beintrepid/dash-core@0.0.3"
     },
-    "github:beintrepid/dash-github@0.0.1": {
-      "linq-es6": "npm:linq-es6@0.2.1"
-    },
     "github:beintrepid/dash-transform-vis@0.0.2": {
       "backbone": "npm:backbone@1.2.1",
       "linq-es6": "npm:linq-es6@0.2.1",
       "lodash": "npm:lodash@3.10.0"
     },
-    "github:beintrepid/dash-transform@0.0.2": {
+    "github:beintrepid/dash-transform@0.0.3": {
       "jquery": "github:components/jquery@2.1.4",
       "linq-es6": "npm:linq-es6@0.2.1"
     },
@@ -233,6 +229,9 @@ System.config({
     },
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
+    },
+    "npm:babel-runtime@5.8.12": {
+      "process": "github:jspm/nodelibs-process@0.1.1"
     },
     "npm:backbone@1.1.2": {
       "process": "github:jspm/nodelibs-process@0.1.1",
