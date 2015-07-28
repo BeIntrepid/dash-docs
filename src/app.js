@@ -2,7 +2,7 @@ import 'bootstrap';
 import 'bootstrap/css/bootstrap.css!';
 import {ServiceLocator} from 'dash-core'
 import * as dashComponent from 'dash-component'
-import * as dashTVis from 'dash-transform-vis'
+import * as dashVis from 'dash-transform-vis'
 
 export class App {
 
