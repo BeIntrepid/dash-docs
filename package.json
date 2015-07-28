@@ -74,8 +74,7 @@
       "dash-core": "github:beintrepid/dash-core@^0.0.3",
       "dash-transform": "github:beintrepid/dash-transform@^0.0.3",
       "dash-transform-vis": "github:beintrepid/dash-transform-vis@^0.0.2",
-      "font-awesome": "npm:font-awesome@^4.3.0",
-      "jointjs": "npm:jointjs@^0.8.0"
+      "font-awesome": "npm:font-awesome@^4.3.0"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.1.13",
