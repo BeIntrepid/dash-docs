@@ -45,11 +45,11 @@ System.config({
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.13",
-    "dash-component": "github:beintrepid/dash-component@0.0.4",
-    "dash-core": "github:beintrepid/dash-core@0.0.3",
-    "dash-github": "github:beintrepid/dash-github@0.0.1",
-    "dash-transform": "github:beintrepid/dash-transform@0.0.2",
-    "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.4",
+    "dash-component": "github:beintrepid/dash-component@0.0.6",
+    "dash-core": "github:beintrepid/dash-core@0.0.6",
+    "dash-github": "github:beintrepid/dash-github@0.0.6",
+    "dash-transform": "github:beintrepid/dash-transform@0.0.6",
+    "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.6",
     "font-awesome": "npm:font-awesome@4.3.0",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
@@ -166,7 +166,17 @@ System.config({
     "github:beintrepid/dash-component@0.0.5": {
       "dash-core": "github:beintrepid/dash-core@0.0.3"
     },
+    "github:beintrepid/dash-component@0.0.6": {
+      "dash-core": "github:beintrepid/dash-core@0.0.6"
+    },
     "github:beintrepid/dash-github@0.0.1": {
+      "dash-component": "github:beintrepid/dash-component@0.0.5",
+      "dash-transform": "github:beintrepid/dash-transform@0.0.4",
+      "linq-es6": "npm:linq-es6@0.2.1"
+    },
+    "github:beintrepid/dash-github@0.0.6": {
+      "dash-component": "github:beintrepid/dash-component@0.0.6",
+      "dash-transform": "github:beintrepid/dash-transform@0.0.6",
       "linq-es6": "npm:linq-es6@0.2.1"
     },
     "github:beintrepid/dash-transform-vis@0.0.4": {
@@ -176,11 +186,22 @@ System.config({
       "linq-es6": "npm:linq-es6@0.2.1",
       "lodash": "npm:lodash@3.10.0"
     },
+    "github:beintrepid/dash-transform-vis@0.0.6": {
+      "backbone": "npm:backbone@1.2.1",
+      "dash-transform": "github:beintrepid/dash-transform@0.0.6",
+      "jointjs": "npm:jointjs@0.9.4",
+      "linq-es6": "npm:linq-es6@0.2.1",
+      "lodash": "npm:lodash@3.10.0"
+    },
     "github:beintrepid/dash-transform@0.0.2": {
       "jquery": "github:components/jquery@2.1.4",
       "linq-es6": "npm:linq-es6@0.2.1"
     },
     "github:beintrepid/dash-transform@0.0.4": {
+      "jquery": "github:components/jquery@2.1.4",
+      "linq-es6": "npm:linq-es6@0.2.1"
+    },
+    "github:beintrepid/dash-transform@0.0.6": {
       "jquery": "github:components/jquery@2.1.4",
       "linq-es6": "npm:linq-es6@0.2.1"
     },
