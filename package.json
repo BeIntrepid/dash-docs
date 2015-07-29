@@ -70,10 +70,10 @@
       "aurelia-templating-router": "github:aurelia/templating-router@^0.14.0",
       "bootstrap": "github:twbs/bootstrap@^3.3.4",
       "css": "github:systemjs/plugin-css@^0.1.9",
-      "dash-component": "github:beintrepid/dash-component@^0.0.5",
-      "dash-core": "github:beintrepid/dash-core@^0.0.3",
-      "dash-github": "github:beintrepid/dash-github@^0.0.1",
-      "dash-transform-vis": "github:beintrepid/dash-transform-vis@^0.0.4",
+      "dash-component": "github:beintrepid/dash-component@^0.0.6",
+      "dash-core": "github:beintrepid/dash-core@^0.0.6",
+      "dash-github": "github:beintrepid/dash-github@^0.0.6",
+      "dash-transform-vis": "github:beintrepid/dash-transform-vis@^0.0.6",
       "font-awesome": "npm:font-awesome@^4.3.0"
     },
     "devDependencies": {
