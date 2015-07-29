@@ -1,0 +1,20 @@
+<template>
+  <div class="container-fluid" style="margin-top: 10px">
+    <div class="row">
+
+      <div class="col-xs-2">
+        <ul class="nav nav-pills nav-stacked" repeat.for="sample of samples">
+          <li><a href="#${sample.file}">${sample.title}</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-10">
+        <div repeat.for="sample of samples">
+            <compose model.bind="sample"
+                     view-model="samples/${sample.file}"
+                     view="samples/sample.html"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

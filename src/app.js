@@ -57,10 +57,11 @@ export class App {
   }
 
   configureRouter(config, router){
-    config.title = 'Aurelia';
+    config.title = 'Dash';
     //config.addPipelineStep('modelbind',modelbind);
     config.map([
-      { route: ['','d/:areaId'],  moduleId: './dashboards/dash/Dashboard',      nav: true, title:'Dash Dashboard' }
+      { route: ['', 'd/:areaId'],     moduleId: './dashboards/dash/Dashboard',      nav: true, title:'Sample Dashboard' },
+      { route: ['samples'],           moduleId: './samples/index',                  nav: true, title:'Code Samples' }
     ]);
 
     this.router = router;
