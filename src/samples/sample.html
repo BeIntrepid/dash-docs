@@ -3,16 +3,25 @@
     <div class="panel-heading">
       ${title}
     </div>
-    <div class="panel-body row">
-      <div class="col-xs-4">
-        <code>${ sample | functionToString }</code>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-8">
+          <pre class="language-javascript">
+            <code ref="sampleCodeElement" class="language-javascript">${ sample | functionToString }</code>
+          </pre>
+        </div>
+        <div class="col-xs-4">
+          <pre class="language-javascript">
+            <code ref="outputElement" class="language-javascript">// output</code>
+          </pre>
+        </div>
       </div>
-      <div class="col-xs-4">
-        <samp>// output</samp>
-      </div>
-      <div class="col-xs-4">
-        <div id="MahDiagram"/>
+      <div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="MahDiagram"/>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </template>

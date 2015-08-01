@@ -1,3 +1,6 @@
+// NOTE - how to reference a css file from the packages folder? Having the version number here is a code smell!
+import 'prism/themes/prism.css!';
+
 export class Index {
   samples = [];
 

@@ -51,6 +51,8 @@ System.config({
     "dash-transform": "github:beintrepid/dash-transform@0.0.6",
     "dash-transform-vis": "github:beintrepid/dash-transform-vis@0.0.6",
     "font-awesome": "npm:font-awesome@4.3.0",
+    "jointjs": "npm:jointjs@0.9.4",
+    "prism": "github:PrismJS/prism@1.0.1",
     "traceur": "github:jmcriffey/bower-traceur@0.0.88",
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
     "github:aurelia/animator-css@0.13.0": {

@@ -1,3 +1,8 @@
+import joint from 'jointjs';
+import {PipeConverter} from 'dash-transform-vis';
+import {Pipe} from 'dash-transform';
+import prism from 'prism';
+
 export class One{
   title = '';
   pipe = null;
@@ -5,7 +10,7 @@ export class One{
   // todo - perhaps this could be moved to a base class
   activate(model){
     this.title = model.title;
-    this.sample();
+    this.pipe = this.sample();
   }
 
   attached(){
@@ -33,15 +38,16 @@ export class One{
 
     var pc = new PipeConverter();
 
-    return pc.toJointGraph(this.pipe,graph);
+    return pc.toJointGraph(this.pipe, graph);
   }
 
   sample(){
-    console.log('hi azim');
-
-    // this.pipe = // create pipe
-
+    var pipe = new Pipe();
+    pipe.add(() => { return 'Hello World'; });
+    console.log(pipe);
+    return pipe.execute({});
     //pipe created.
+
   }
 
 }
